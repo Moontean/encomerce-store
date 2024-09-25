@@ -359,7 +359,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
                   <FormControl>
                     <Checkbox
                       checked={field.value}
-                      // @ts-ignore
+                      // "@ts-expect-error"
                       onCheckedChange={field.onChange}
                       disabled={isLoading}
                     />
