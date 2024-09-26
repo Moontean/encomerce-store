@@ -4,7 +4,6 @@ import { Alert, AlertDescription, AlertTitle } from "./alert";
 import { Copy, Server } from "lucide-react";
 import { Badge, BadgeProps } from "./badge";
 import { Button } from "./button";
-import { Description } from "@radix-ui/react-dialog";
 import toast from "react-hot-toast";
 
 

@@ -6,11 +6,6 @@ import Link from 'next/link'
 import { useParams, usePathname } from 'next/navigation'
 
 import { cn } from '@/lib/utils'
-import { Category } from '@/types'
-
-interface MainNavProps{
-  data: Category[]
-};
 
 export function MainNav({ className, ...props }: HTMLAttributes<HTMLElement>) {
   const pathName = usePathname()
